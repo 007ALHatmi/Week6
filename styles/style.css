@@ -1,0 +1,130 @@
+nav {
+    background-color: gray;
+    padding: 5px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    display: inline;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: greenyellow
+}
+
+Body{
+    font-family: Verdana;
+    background-color: #000000;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+  width: 300;
+}
+
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+caption{
+    text-align: center;
+}
+
+.sectionDisplay{
+    border: 2px solid black;
+    margin: 100px;
+}
+
+header{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+    
+}
+
+#content{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+    background-color: #000000p;
+        
+}
+
+
+aside{
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: right;
+    color: white;
+}
+
+#aboutus img{
+    width: 95%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li
+{list-style-type: none;}
+
+aside ol li {
+    list-style-type: none;
+}
+
+.col_detail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    column-width: 10px;
+    column-span: all;
+    padding: 2px;
+    background-color: #000000;
+    float: left;
+}
+
+p {
+    color: white;
+}
+
+h2,h3 {
+    color: white;
+}
